@@ -17,6 +17,20 @@
 - componentWillUpdate
 - render
 - componentDidUpdate
+-
+```
+componentWillReceviceProps
+props를 새로 지정했을 때 바로 호출되며 state의 변경에 반응하지 않는다.
+여기서 props 값에 E따라 state를 변경해야 한다먄, setState를 이용해 state를 변경한다.
+그러면 다음 이벤트로 가는 것이 아니라 한번에 변경
+```
+
+```
+shouldComponentUpdate
+true, false를 리턴해 실제 render를 조절할 수 있음
+불필요한 render를 방지하고 리액트 컴포넌트 성능 최적화에 중요한 역할
+props, state 변경되면 실행, new Props와  new State를 인자로 해서 호출
+```
 
 ### Component 언마운트
 - componentWillUnmpunt

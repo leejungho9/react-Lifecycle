@@ -8,14 +8,14 @@
 ### Component 생성 및 마운트 
 - constructor
 - componentWillMount 
-- render
+- **render**
 - componentDidMount
 
 ### Component props, state 변경
 - componentWillReceviceProps 
 - shouldComponentUpdate
 - componentWillUpdate
-- render
+- **render**
 - componentDidUpdate
 -
 ```

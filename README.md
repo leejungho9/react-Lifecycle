@@ -17,7 +17,7 @@
 - componentWillUpdate
 - **render**
 - componentDidUpdate
--
+
 ```
 componentWillReceviceProps
 props를 새로 지정했을 때 바로 호출되며 state의 변경에 반응하지 않는다.
@@ -33,7 +33,7 @@ props, state 변경되면 실행, new Props와  new State를 인자로 해서 �
 ```
 
 ### Component 언마운트
-- componentWillUnmpunt
+- componentWillUnmount
 
 ### 리액트 버전16.3 이후의 라이프사이클
 
